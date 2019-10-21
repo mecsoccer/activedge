@@ -34,10 +34,7 @@ class Artists extends React.Component {
         <Header />
         <div className="page-main">
             <div className="filter-section">
-                <label className="left filter">Filter</label>
-                <select className="property-type fivecol">
-                    <option>All</option>
-                </select>
+                <p className="twenty-four">ARTISTS SHOWING</p>
                 <span className="add-property-btn fit right pointer" title="add new property">
                 <Link to="/albums">
                   <button>albums</button>
