@@ -30,7 +30,7 @@ class Header extends React.Component {
             <img alt="img" src={MenuIcon} className="menu right" onClick={this.menuButtonToggle} />
             <div className="search-container left">
                 <div className="centered fit">
-                    <input type="text" className="search eighteen" placeholder="Seach places" />
+                    <input type="text" className="search eighteen" placeholder="Search artists and albums" />
                     <button className="search-btn accent-bg-2 pointer">
                       <SearchIcon />
                     </button>
